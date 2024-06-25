@@ -17,7 +17,7 @@ Let's build the vector database to generate relevant context for the user querie
 """
 
 import pandas as pd
-df = pd.read_csv('..//wine-ratings.csv')
+df = pd.read_csv('wine-ratings.csv')
 df = df[df['variety'].notna()] 
 data = df.sample(700).to_dict('records') 
 
