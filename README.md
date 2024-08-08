@@ -50,3 +50,10 @@ Using qDrant db in memory, for more production use case, use persistent memory (
 
     an example of query is "Suggest a good shiraz wine"
 
+
+Stack used:
+### vector DB -  qDrant (https://qdrant.tech/documentation/overview/)
+### llm model - llamafile lets you distribute and run LLMs with a single file (https://github.com/Mozilla-Ocho/llamafile)
+
+
+
