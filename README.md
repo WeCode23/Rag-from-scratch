@@ -44,12 +44,10 @@ Steps to run a server to receive user input and generate relevant response.
 
     you can pass your query inside the "query" key and execute it.
 
+    an example of query is "Suggest a good shiraz wine"
 
 Note:
 Using qDrant db in memory, for more production use case, use persistent memory (easiest way to volumne mount a path with qDrant container)
-
-    an example of query is "Suggest a good shiraz wine"
-
 
 Stack used:
 ### vector DB -  qDrant (https://qdrant.tech/documentation/overview/)
